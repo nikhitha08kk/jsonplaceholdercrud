@@ -1,0 +1,71 @@
+/* postrom css */
+.form-group {
+    margin-bottom: 15px;
+    background: #ffffff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    color: #555555;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 50%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #6200ea;
+    outline: none;
+  }
+  .create{
+    display: inline-block;
+    background-color: #fdfd62;
+    color: #000000;
+    padding: 10px 15px ;
+    font-size: 1em;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 10%;
+    transition: background-color 0.3s ease;
+  }
+  .edit{
+    display: inline-block;
+    background-color: #46aefe;
+    color: #000000;
+    padding: 10px 15px ;
+    font-size: 1em;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 10%;
+    transition: background-color 0.3s ease;
+  }
+  .delete{
+    display: inline-block;
+    background-color: #fe5246;
+    color: #000000;
+    padding: 10px 15px ;
+    font-size: 1em;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 10%;
+    transition: background-color 0.3s ease;
+  }
+  
